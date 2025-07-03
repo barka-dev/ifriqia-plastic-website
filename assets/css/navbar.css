@@ -6,7 +6,7 @@ Navbar Area Style
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 2;
-  background: #000E30;
+  background: #FFF;
 }
 .navbar-area::before {
   position: absolute;
@@ -16,7 +16,7 @@ Navbar Area Style
   bottom: 0;
   height: 100%;
   width: 305px;
-  background-color: #FF4057;
+  background-color: #FFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 76% 101%, 0% 102%);
           clip-path: polygon(0% 0%, 100% 0%, 76% 101%, 0% 102%);
 }
