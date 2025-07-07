@@ -34,10 +34,21 @@ body {
   font-weight: 500;
   padding: 0;
   margin: 0;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000000;
   line-height: 1.4;
   font-family: "Spartan", sans-serif;
@@ -45,14 +56,14 @@ body {
 }
 
 a {
-  color: #6B6B6B;
+  color: #6b6b6b;
   transition: all ease 0.5s;
   text-decoration: none;
 }
 
 p {
   font-size: 16px;
-  color: #6B6B6B;
+  color: #6b6b6b;
   margin-bottom: 15px;
   font-weight: 500;
   line-height: 1.8;
@@ -96,7 +107,7 @@ img {
 }
 
 .bg-000E30 {
-  background: #000E30;
+  background: #000e30;
 }
 
 .owl-carousel .owl-item img {
@@ -110,22 +121,22 @@ img {
 .owl-theme .owl-dots .owl-dot span {
   width: 25px;
   height: 9px;
-  background: #EAE4E4;
+  background: #eae4e4;
   border-radius: 5px;
   transition: all ease 0.5s;
 }
 .owl-theme .owl-dots .owl-dot.active span {
   width: 44px;
-  background: #FF4057;
+  background: #ff4057;
 }
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #FF4057;
+  background: #ff4057;
 }
 
 .default-btn {
   position: relative;
   display: inline-block;
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
@@ -158,7 +169,7 @@ img {
 .default-y-btn {
   position: relative;
   display: inline-block;
-  background-color: #FFAA17;
+  background-color: #ffaa17;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
@@ -192,7 +203,7 @@ img {
 .single-section span {
   font-weight: 600;
   font-size: 16px;
-  color: #FFAA17;
+  color: #ffaa17;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -209,7 +220,7 @@ img {
 .section-title span {
   font-weight: 600;
   font-size: 16px;
-  color: #FFAA17;
+  color: #ffaa17;
   display: inline-block;
   margin-bottom: 8px;
 }
@@ -250,7 +261,7 @@ Top button Style
   text-align: center;
   line-height: 46px;
   font-size: 24px;
-  color: #FF4057;
+  color: #ff4057;
   left: 0;
   top: 0;
   height: 46px;
@@ -288,7 +299,7 @@ Top button Style
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #FF4057;
+  stroke: #ff4057;
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;
@@ -318,7 +329,7 @@ Top Header Style
   position: relative;
   padding-right: 30px;
   display: inline-block;
-  color: #D1D1D1;
+  color: #d1d1d1;
   font-weight: 500;
   font-size: 15px;
 }
@@ -341,7 +352,7 @@ Top Header Style
   font-size: 15px;
 }
 .header-contact-info .info-list li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 .header-service {
@@ -377,10 +388,10 @@ Top Header Style
 }
 .header-service .service-list li a {
   font-size: 15px;
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
 .header-service .service-list li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .header-service .social {
   list-style: none;
@@ -416,7 +427,7 @@ Top Header Style
   transition: all ease 0.5s;
 }
 .header-service .social li i:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 /*
@@ -442,7 +453,11 @@ Banner Area Style
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: linear-gradient(89.75deg, rgba(0, 9, 30, 0.64) 40.1%, rgba(0, 14, 48, 0) 59.09%);
+  background: linear-gradient(
+    89.75deg,
+    rgba(0, 9, 30, 0.64) 40.1%,
+    rgba(0, 14, 48, 0) 59.09%
+  );
 }
 .banner-area.bg-1 {
   background-image: url(../images/banner/banner1.webp);
@@ -456,7 +471,7 @@ Banner Area Style
 }
 .banner-content span {
   font-size: 16px;
-  color: #FFAA17;
+  color: #ffaa17;
   padding: 5px 22px;
   background: rgba(255, 255, 255, 0.19);
   border-radius: 50px;
@@ -472,7 +487,7 @@ Banner Area Style
 }
 .banner-content p {
   font-size: 17px;
-  color: #E2E2E2;
+  color: #e2e2e2;
   max-width: 785px;
 }
 .banner-content .default-btn {
@@ -484,18 +499,18 @@ Banner Area Style
   right: 5%;
   bottom: 16%;
 }
-.main-banner-slider .owl-nav [class*=owl-] {
+.main-banner-slider .owl-nav [class*="owl-"] {
   height: 60px;
   font-size: 24px !important;
   width: 60px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
-  background: #F4F8FC !important;
+  background: #f4f8fc !important;
   line-height: 73px !important;
   transition: all 0.5s;
 }
-.main-banner-slider .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.main-banner-slider .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 .main-banner-slider .owl-nav .owl-prev i {
@@ -526,9 +541,9 @@ Features Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #000E30;
+  background: #000e30;
   -webkit-clip-path: polygon(0 0, 95% 0, 84% 100%, 0% 100%);
-          clip-path: polygon(0 0, 95% 0, 84% 100%, 0% 100%);
+  clip-path: polygon(0 0, 95% 0, 84% 100%, 0% 100%);
 }
 .features-area .features-shape {
   position: absolute;
@@ -548,7 +563,7 @@ Features Area Style
   border-radius: 5px;
   font-size: 46px;
   text-align: center;
-  color: #FFAA17;
+  color: #ffaa17;
   left: 0;
   transition: all ease 0.5s;
   position: absolute;
@@ -567,7 +582,7 @@ Features Area Style
   width: 100%;
   z-index: -1;
   border-radius: 5px;
-  background-color: #FF4057;
+  background-color: #ff4057;
   transition: all ease 0.5s;
 }
 .features-widget .content {
@@ -579,7 +594,7 @@ Features Area Style
   margin-bottom: 15px;
 }
 .features-widget .content p {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 .features-widget:hover .icon {
   color: #ffffff;
@@ -638,7 +653,7 @@ Providing Area Style
 }
 
 .pr-card {
-  background: #F8F8F8;
+  background: #f8f8f8;
   border-radius: 5px;
   padding: 30px 20px;
   margin-top: 40px;
@@ -653,7 +668,7 @@ Providing Area Style
   line-height: 82px;
   border-radius: 50%;
   position: relative;
-  background: #FFAA17;
+  background: #ffaa17;
   color: #ffffff;
   margin-left: auto;
   top: -62px;
@@ -670,7 +685,7 @@ Providing Area Style
   right: 0;
   height: 0%;
   width: 100%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   border-radius: 50%;
   opacity: 0;
   visibility: hidden;
@@ -715,25 +730,25 @@ Service Area Style
   right: 18%;
   top: -30%;
 }
-.service-slider-warp .owl-nav [class*=owl-] {
+.service-slider-warp .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
-  background: #FFFFFF !important;
+  background: #ffffff !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.service-slider-warp .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.service-slider-warp .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 
 .service-card {
   padding: 50px 30px 50px 35px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.08);
   border-radius: 10px;
   margin-bottom: 25px;
@@ -751,7 +766,7 @@ Service Area Style
   transition: all ease 0.5s;
   width: 0%;
   z-index: -1;
-  background-color: #FF4057;
+  background-color: #ff4057;
   opacity: 0;
   border-radius: 10px;
   visibility: hidden;
@@ -827,9 +842,9 @@ Service Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #F2F3F5;
+  background: #f2f3f5;
   -webkit-clip-path: polygon(64% -34%, 100% 0%, 100% 100%, 0% 205%);
-          clip-path: polygon(64% -34%, 100% 0%, 100% 100%, 0% 205%);
+  clip-path: polygon(64% -34%, 100% 0%, 100% 100%, 0% 205%);
 }
 .service-slider-area .single-section {
   max-width: 450px;
@@ -852,7 +867,7 @@ funfact Area Style
 .single-funfacts-box h3 {
   font-weight: 700;
   font-size: 48px;
-  color: #FF4057;
+  color: #ff4057;
 }
 .single-funfacts-box h3 .odometer-formatting-mark {
   display: none;
@@ -885,7 +900,7 @@ Company Area Style
   height: 100%;
   width: 3px;
   transition: 0.5s;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 .company-card::after {
   content: "";
@@ -896,12 +911,16 @@ Company Area Style
   height: 3px;
   width: 100%;
   transition: 0.5s;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 .company-card .icon {
   height: 74px;
   width: 74px;
-  background: linear-gradient(180deg, rgba(255, 64, 87, 0.06) 0%, rgba(217, 217, 217, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 64, 87, 0.06) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
   border-radius: 50%;
   text-align: center;
   line-height: 94px;
@@ -912,7 +931,7 @@ Company Area Style
 }
 .company-card .icon i {
   font-size: 40px;
-  color: #FF4057;
+  color: #ff4057;
   transition: all ease 0.5s;
 }
 .company-card .icon::before {
@@ -926,7 +945,7 @@ Company Area Style
   height: 0%;
   border-radius: 50%;
   z-index: -1;
-  background-color: #FF4057;
+  background-color: #ff4057;
   opacity: 0;
   visibility: hidden;
 }
@@ -939,17 +958,17 @@ Company Area Style
 }
 .company-card span {
   position: absolute;
-  color: #D9D7D7;
+  color: #d9d7d7;
   font-weight: 600;
   font-size: 22px;
   right: 40px;
   top: 40px;
 }
 .company-card:hover::before {
-  background-color: #FF4057;
+  background-color: #ff4057;
 }
 .company-card:hover::after {
-  background-color: #FF4057;
+  background-color: #ff4057;
 }
 .company-card:hover .icon::before {
   height: 100%;
@@ -976,19 +995,19 @@ Project Area Style
   right: 17%;
   top: -24%;
 }
-.project-slider-warp .owl-nav [class*=owl-] {
+.project-slider-warp .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.project-slider-warp .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.project-slider-warp .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 
@@ -1007,9 +1026,9 @@ Project Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #F2F3F5;
+  background: #f2f3f5;
   -webkit-clip-path: polygon(0 0, 52% 0, 84% 100%, 0% 100%);
-          clip-path: polygon(0 0, 52% 0, 84% 100%, 0% 100%);
+  clip-path: polygon(0 0, 52% 0, 84% 100%, 0% 100%);
 }
 
 .project-icon-content {
@@ -1033,7 +1052,7 @@ Project Area Style
   background-color: #ffffff;
   border-radius: 5px;
   margin-right: 20px;
-  border: solid 10px #F2F3F5;
+  border: solid 10px #f2f3f5;
   top: -55px;
   margin-bottom: -55px;
   margin-left: 20px;
@@ -1048,7 +1067,7 @@ Project Area Style
   color: #000000;
 }
 .project-box .content h3 a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .project-box .content .icon {
   background: red;
@@ -1101,7 +1120,7 @@ Discover Area Style
 .discover-content span {
   font-weight: 600;
   font-size: 16px;
-  color: #FFAA17;
+  color: #ffaa17;
   display: inline-block;
   margin-bottom: 15px;
 }
@@ -1147,7 +1166,7 @@ Team Area Style
   width: 31.58px;
   height: 31.58px;
   border-radius: 50%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
   line-height: 36px;
   display: inline-block;
@@ -1156,7 +1175,7 @@ Team Area Style
 }
 .team-card .team-social .social li a:hover {
   background-color: #ffffff;
-  color: #FF4057;
+  color: #ff4057;
 }
 .team-card .team-content {
   padding-top: 20px;
@@ -1189,19 +1208,19 @@ Team Area Style
   top: 42%;
   left: 0;
 }
-.team-slider .owl-nav [class*=owl-] {
+.team-slider .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.team-slider .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.team-slider .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 .team-slider .owl-nav .owl-next {
@@ -1230,9 +1249,9 @@ Benefits Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #F2F3F5;
+  background: #f2f3f5;
   -webkit-clip-path: polygon(48% 0%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(48% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(48% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .benefit-image {
@@ -1246,7 +1265,7 @@ Benefits Area Style
   left: 115px;
   padding: 10px;
   border-radius: 5px;
-  background: #F2F3F5;
+  background: #f2f3f5;
 }
 .benefit-image .video-btn {
   position: absolute;
@@ -1256,7 +1275,7 @@ Benefits Area Style
 .benefit-image .video-btn .popup-youtube {
   width: 91px;
   height: 91px;
-  background: #FF4057;
+  background: #ff4057;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -1314,21 +1333,22 @@ Benefits Area Style
   margin-bottom: 0;
 }
 .benefits-content .benefits-list ul li:hover .icon {
-  background-color: #FF4057;
+  background-color: #ff4057;
 }
 .benefits-content .benefits-list ul li:hover .icon img {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(48deg) brightness(102%) contrast(102%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%)
+    hue-rotate(48deg) brightness(102%) contrast(102%);
 }
 .benefits-content .benefits-list ul li .icon {
   height: 73px;
   width: 73px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.07);
   line-height: 75px;
   font-size: 43px;
   position: absolute;
-  color: #FF4057;
+  color: #ff4057;
   text-align: center;
   transition: all ease 0.5s;
   left: 0;
@@ -1387,7 +1407,7 @@ Benefits Area Style
 }
 .newsletter-input .form-control {
   height: 70px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
   padding: 22px 20px 15px 20px;
   border: none;
@@ -1411,7 +1431,7 @@ Benefits Area Style
 Testimonial Area Style
 ======================================================*/
 .testimonial-box {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
   padding: 42px 33px;
@@ -1439,7 +1459,7 @@ Testimonial Area Style
   margin-bottom: 0;
 }
 .testimonial-box:hover .user-content .user img {
-  border-color: #FF4057;
+  border-color: #ff4057;
 }
 .testimonial-box .main-content p {
   font-size: 18px;
@@ -1464,28 +1484,28 @@ Testimonial Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #F2F3F5;
+  background: #f2f3f5;
   -webkit-clip-path: polygon(0 0, 74% 0, 45% 100%, 0% 100%);
-          clip-path: polygon(0 0, 74% 0, 45% 100%, 0% 100%);
+  clip-path: polygon(0 0, 74% 0, 45% 100%, 0% 100%);
 }
 .testimonial-area .owl-nav {
   position: absolute;
   right: 0%;
   top: -28%;
 }
-.testimonial-area .owl-nav [class*=owl-] {
+.testimonial-area .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.testimonial-area .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.testimonial-area .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 
@@ -1506,7 +1526,7 @@ Blog Area Style
   width: 67px;
   height: 67px;
   border-radius: 50%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   position: absolute;
   text-align: center;
   right: 20px;
@@ -1541,7 +1561,7 @@ Blog Area Style
   top: 9px;
   width: 53px;
   height: 1px;
-  background-color: #D1D0D0;
+  background-color: #d1d0d0;
 }
 .blog-card .content .blog-list li:last-child {
   padding-right: 0;
@@ -1554,7 +1574,7 @@ Blog Area Style
   color: #000000;
 }
 .blog-card .content h4 a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 /*
@@ -1564,7 +1584,7 @@ Footer Area Style
   margin-bottom: 25px;
 }
 .footer-widget .torado-p {
-  color: #D4D4D4;
+  color: #d4d4d4;
   margin-bottom: 20px;
   margin-right: 5px;
 }
@@ -1593,7 +1613,7 @@ Footer Area Style
   line-height: 42px;
 }
 .footer-widget .social li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .footer-widget h3 {
   font-size: 22px;
@@ -1631,14 +1651,14 @@ Footer Area Style
   transition: all ease 0.5s;
 }
 .footer-widget .footer-link .link-list li a {
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
 .footer-widget .footer-link .link-list li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .footer-widget .footer-link .link-list li a:hover i {
   opacity: 100%;
-  color: #FF4057;
+  color: #ff4057;
 }
 .footer-widget .footer-contact ul {
   list-style: none;
@@ -1649,7 +1669,7 @@ Footer Area Style
   position: relative;
   padding-left: 52px;
   margin-bottom: 38px;
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
 .footer-widget .footer-contact ul li:last-child {
   margin-bottom: 0;
@@ -1660,10 +1680,10 @@ Footer Area Style
 }
 .footer-widget .footer-contact ul li a {
   display: inline;
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
 .footer-widget .footer-contact ul li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .footer-widget .footer-contact ul li i {
   position: absolute;
@@ -1675,11 +1695,11 @@ Footer Area Style
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   font-size: 18px;
-  color: #FF4057;
+  color: #ff4057;
   transition: all ease 0.5s;
 }
 .footer-widget .footer-contact ul li:hover i {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 
@@ -1694,7 +1714,7 @@ Footer Area Style
 }
 
 .both-area {
-  background: #000E30;
+  background: #000e30;
 }
 
 .copyright-area {
@@ -1704,13 +1724,13 @@ Footer Area Style
 }
 .copyright-area p {
   margin-bottom: 0;
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
 .copyright-area p span {
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
 .copyright-area p a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .copyright-area p a:hover {
   color: #ffffff;
@@ -1723,7 +1743,7 @@ Style Two Banner Area Style
   margin-left: 30px;
 }
 .hero-content .style-1 {
-  color: #FF4057;
+  color: #ff4057;
   font-weight: 600;
   padding: 5px 16px 3px 16px;
   border: 1px solid rgba(255, 64, 87, 0.15);
@@ -1791,7 +1811,7 @@ Style Two Banner Area Style
 .people-list .user li .content {
   width: 78px;
   height: 78px;
-  background: #FFAA17;
+  background: #ffaa17;
   border-radius: 50%;
   border: solid 2px #ffffff;
 }
@@ -1814,7 +1834,7 @@ Style Two Banner Area Style
 }
 .counter-area .single-count-box h3 {
   font-weight: 700;
-  color: #FFAA17;
+  color: #ffaa17;
   font-size: 32px;
   margin-bottom: 0;
 }
@@ -1856,13 +1876,13 @@ Style Two Banner Area Style
 Top Service Area Style
 ======================================================*/
 .top-card {
-  background: #F2F3F5;
+  background: #f2f3f5;
   border-radius: 5px;
   padding: 38px 33px;
   margin-bottom: 25px;
 }
 .top-card .icon {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.09);
   border-radius: 5px;
   width: 76px;
@@ -1870,7 +1890,7 @@ Top Service Area Style
   text-align: center;
   line-height: 85px;
   font-size: 40px;
-  color: #FF4057;
+  color: #ff4057;
   margin-bottom: 25px;
   position: relative;
   z-index: 1;
@@ -1883,7 +1903,7 @@ Top Service Area Style
   right: 0;
   height: 0%;
   width: 100%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   transition: all ease 0.5s;
   opacity: 0;
   z-index: -1;
@@ -1898,15 +1918,15 @@ Top Service Area Style
   color: #000000;
 }
 .top-card .content h3 a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .top-card .content .read-more {
   text-decoration-line: underline;
   font-weight: 600;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .top-card .content .read-more:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .top-card:hover .icon {
   color: #ffffff;
@@ -1917,10 +1937,10 @@ Top Service Area Style
   visibility: visible;
 }
 .top-card:hover .content h3 a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .top-card:hover .read-more {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 .single-btn-section {
@@ -1949,7 +1969,7 @@ Choose Area Style
 .choose-image .video-btn .popup-youtube {
   width: 67px;
   height: 67px;
-  background: #FF4057;
+  background: #ff4057;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -1964,7 +1984,7 @@ Choose Area Style
   left: 3px;
 }
 .choose-image .video-btn .popup-youtube:hover {
-  background-color: #FFAA17;
+  background-color: #ffaa17;
 }
 
 .choose-content {
@@ -1986,19 +2006,19 @@ Choose Area Style
 .choose-content .choose-list li i {
   position: absolute;
   left: 0px;
-  color: #FF4057;
+  color: #ff4057;
   font-size: 7px;
   padding: 2px;
   height: 12px;
-  border: solid 1px #FF4057;
+  border: solid 1px #ff4057;
   top: 4px;
   text-align: center;
   border-radius: 50%;
   width: 12px;
 }
 .choose-content .data-tag {
-  background: #F8F8F8;
-  border-bottom: 5px solid #ECECEC;
+  background: #f8f8f8;
+  border-bottom: 5px solid #ececec;
   border-radius: 5px;
   padding: 35px 120px 35px 35px;
   align-items: center;
@@ -2006,7 +2026,7 @@ Choose Area Style
 .choose-content .data-tag span {
   font-weight: 700;
   font-size: 36px;
-  color: #FF4057;
+  color: #ff4057;
   margin-bottom: 0;
   padding-right: 20px;
 }
@@ -2046,7 +2066,7 @@ Industry Area Style
   border-radius: 5px;
 }
 .industry-slider .industry-image .content {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
   border-radius: 5px;
   position: absolute;
@@ -2067,29 +2087,29 @@ Industry Area Style
   margin-bottom: 0;
 }
 .industry-slider .industry-image .content h4 a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .industry-slider .industry-image .content h4 a:hover {
-  color: #FFC107;
+  color: #ffc107;
 }
 .industry-slider .owl-nav {
   position: absolute;
   right: 0%;
   top: -20%;
 }
-.industry-slider .owl-nav [class*=owl-] {
+.industry-slider .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.industry-slider .owl-nav [class*=owl-]:hover {
-  background-color: #FF4057 !important;
+.industry-slider .owl-nav [class*="owl-"]:hover {
+  background-color: #ff4057 !important;
   color: #ffffff !important;
 }
 
@@ -2126,9 +2146,9 @@ Selector Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #F2F3F5;
+  background: #f2f3f5;
   -webkit-clip-path: polygon(0 0, 52% 0, 84% 100%, 0% 100%);
-          clip-path: polygon(0 0, 52% 0, 84% 100%, 0% 100%);
+  clip-path: polygon(0 0, 52% 0, 84% 100%, 0% 100%);
 }
 
 .selector-content p {
@@ -2153,17 +2173,17 @@ Selector Area Style
   top: 50%;
   transform: translateY(-8px);
   transition: all ease 0.5s;
-  color: #FF4057;
+  color: #ff4057;
 }
 .selector-content .list li:hover a {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .selector-content .list li:hover i {
   color: #ffffff;
 }
 .selector-content .list li a {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
   display: block;
   position: relative;
@@ -2201,19 +2221,19 @@ Expert Area Style
   right: -20%;
   top: 68%;
 }
-.expert-team-area .owl-nav [class*=owl-] {
+.expert-team-area .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.expert-team-area .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.expert-team-area .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 
@@ -2230,7 +2250,7 @@ Testimonial Area Style
   background-color: transparent;
 }
 .testimonial-area-two .testimonial-box2 {
-  background: #F8F8F8;
+  background: #f8f8f8;
   box-shadow: unset;
   border-radius: 5px;
 }
@@ -2272,9 +2292,9 @@ Global Area Style
   height: 100%;
   z-index: -1;
   width: 100%;
-  background: #F2F3F5;
+  background: #f2f3f5;
   -webkit-clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 16% 100%);
-          clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 16% 100%);
+  clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 16% 100%);
 }
 
 .global-image {
@@ -2298,7 +2318,7 @@ Global Area Style
   position: absolute;
   left: 0;
   top: 4px;
-  color: #FF4057;
+  color: #ff4057;
 }
 .global-list .list.two {
   margin-left: -45px;
@@ -2318,7 +2338,7 @@ Blog Area Style
 }
 .blog-card-style2 .date-two {
   padding: 11px 22px;
-  background: #FF4057;
+  background: #ff4057;
   position: absolute;
   bottom: 0;
   border-radius: 5px 5px 0px;
@@ -2360,7 +2380,7 @@ Demo Area Style
   width: 100%;
   z-index: -1;
   height: 13px;
-  background: #FFAA17;
+  background: #ffaa17;
 }
 .demo-content h1 {
   font-weight: 800;
@@ -2373,14 +2393,14 @@ Demo Area Style
 System Area Style
 ======================================================*/
 .system-box {
-  background: #F2F3F5;
+  background: #f2f3f5;
   border-radius: 5px;
   padding: 35px 25px;
   margin-bottom: 25px;
   position: relative;
 }
 .system-box .icon {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.09);
   border-radius: 5px;
   width: 65px;
@@ -2388,7 +2408,7 @@ System Area Style
   text-align: center;
   line-height: 75px;
   font-size: 40px;
-  color: #FF4057;
+  color: #ff4057;
   margin-bottom: 25px;
   position: relative;
   z-index: 1;
@@ -2401,7 +2421,7 @@ System Area Style
   right: 0;
   height: 0%;
   width: 100%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   transition: all ease 0.5s;
   opacity: 0;
   z-index: -1;
@@ -2416,7 +2436,7 @@ System Area Style
   color: #000000;
 }
 .system-box .content h3 a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .system-box .content .read-more {
   text-decoration-line: underline;
@@ -2424,7 +2444,7 @@ System Area Style
   color: #000000;
 }
 .system-box .content .read-more:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .system-box:hover .icon {
   color: #ffffff;
@@ -2435,10 +2455,10 @@ System Area Style
   visibility: visible;
 }
 .system-box:hover .content h3 a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .system-box:hover .read-more {
-  color: #FF4057;
+  color: #ff4057;
 }
 .system-box span {
   font-size: 64px;
@@ -2511,7 +2531,7 @@ Increase Area Style
   top: 5px;
   font-size: 12px;
   left: 0;
-  color: #FF4057;
+  color: #ff4057;
 }
 
 .about-slider-warp {
@@ -2547,7 +2567,7 @@ Dubble Area Style
 .dubbble-funfacts-box h3 {
   font-weight: 700;
   font-size: 48px;
-  color: #FF4057;
+  color: #ff4057;
 }
 .dubbble-funfacts-box h3 .odometer-formatting-mark {
   display: none;
@@ -2565,12 +2585,12 @@ Dubble Area Style
 .dubbble-funfacts-box .icon {
   width: 83px;
   height: 80px;
-  background: #212D4B;
+  background: #212d4b;
   border-radius: 5px;
   font-size: 50px;
   text-align: center;
   line-height: 97px;
-  color: #FFAA17;
+  color: #ffaa17;
   position: absolute;
   top: 12px;
   transition: all ease 0.5s;
@@ -2585,7 +2605,7 @@ Dubble Area Style
   right: 0;
   height: 0%;
   width: 100%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   opacity: 0;
   border-radius: 5px;
   z-index: -1;
@@ -2634,12 +2654,12 @@ Maintain Area Style
 ======================================================*/
 .maintain-box {
   padding: 40px;
-  background: #F3F8F9;
+  background: #f3f8f9;
   border-radius: 5px;
   margin-bottom: 25px;
 }
 .maintain-box .icon {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.09);
   border-radius: 5px;
   width: 78px;
@@ -2647,7 +2667,7 @@ Maintain Area Style
   text-align: center;
   line-height: 100px;
   font-size: 45px;
-  color: #FF4057;
+  color: #ff4057;
   margin-bottom: 25px;
   position: relative;
   z-index: 1;
@@ -2660,7 +2680,7 @@ Maintain Area Style
   right: 0;
   height: 0%;
   width: 100%;
-  background-color: #FF4057;
+  background-color: #ff4057;
   transition: all ease 0.5s;
   opacity: 0;
   z-index: -1;
@@ -2675,15 +2695,15 @@ Maintain Area Style
   color: #000000;
 }
 .maintain-box .content h3 a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .maintain-box .content .read-more {
   text-decoration-line: underline;
   font-weight: 600;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .maintain-box .content .read-more:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .maintain-box:hover .icon {
   color: #ffffff;
@@ -2694,10 +2714,10 @@ Maintain Area Style
   visibility: visible;
 }
 .maintain-box:hover .content h3 a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .maintain-box:hover .read-more {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 /*
@@ -2727,7 +2747,7 @@ Progress bar Area Style
   width: 100%;
   transform: scaleX(0);
   transform-origin: left;
-  background: #E8E8E8;
+  background: #e8e8e8;
   border-radius: 30px;
   animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
@@ -2735,7 +2755,7 @@ Progress bar Area Style
   height: 5px;
   border-radius: 5px;
   width: 80%;
-  background: #FFAA17;
+  background: #ffaa17;
   border-radius: 5px;
   top: 5px;
   position: absolute;
@@ -2753,7 +2773,7 @@ Progress bar Area Style
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #FFAA17;
+  background: #ffaa17;
   animation: showText2 0.5s 1.5s linear forwards;
 }
 .skill-bar .bar .progress-line span::after {
@@ -2820,7 +2840,7 @@ Fectory Area Style
 .factory-image .video-btn .popup-youtube {
   width: 91px;
   height: 91px;
-  background: #FF4057;
+  background: #ff4057;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -2844,7 +2864,7 @@ Fectory Area Style
 }
 
 .factory-content {
-  background: #F7F7F7;
+  background: #f7f7f7;
   border-radius: 20px;
   margin-left: -235px;
   margin-top: 35px;
@@ -2863,11 +2883,11 @@ Fectory Area Style
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 .factory-content .h-tag {
-  background: #FFFFFF;
-  border-bottom: 4px solid #EAE4E4;
+  background: #ffffff;
+  border-bottom: 4px solid #eae4e4;
   border-radius: 5px;
   padding: 25px 35px;
   margin-bottom: 20px;
@@ -2902,17 +2922,17 @@ Project Area Style
   font-weight: 500;
   font-size: 18px;
   letter-spacing: -0.02em;
-  color: #231F20;
+  color: #231f20;
   padding: 11px 16px 7px 16px;
   transition: all ease 0.5s;
 }
 .project-tab-area #myTab .nav-item .nav-link.active {
-  background: #FF4057;
+  background: #ff4057;
   border-radius: 5px;
   color: #ffffff;
 }
 .project-tab-area #myTab .nav-item .nav-link:hover {
-  background: #FF4057;
+  background: #ff4057;
   color: #ffffff;
 }
 .project-tab-area .owl-item:last-of-type {
@@ -2948,24 +2968,24 @@ Project Area Style
 }
 .recent-box .content-icon .content p {
   letter-spacing: -0.02em;
-  color: #D1D1D1;
+  color: #d1d1d1;
   font-size: 14px;
   margin-bottom: 10px;
 }
 .recent-box .content-icon .icon {
   width: 43px;
   height: 43px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 50%;
   line-height: 55px;
   text-align: center;
   font-size: 20px;
-  color: #FF4057;
+  color: #ff4057;
   display: inline-block;
   transition: all ease 0.5s;
 }
 .recent-box .content-icon .icon:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .recent-box .content-icon2 {
@@ -2987,23 +3007,23 @@ Project Area Style
 }
 .recent-box .content-icon2 .content p {
   letter-spacing: -0.02em;
-  color: #D1D1D1;
+  color: #d1d1d1;
   margin-bottom: 10px;
 }
 .recent-box .content-icon2 .icon {
   width: 53px;
   height: 53px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 50%;
   line-height: 65px;
   text-align: center;
   font-size: 25px;
-  color: #FF4057;
+  color: #ff4057;
   display: inline-block;
   transition: all ease 0.5s;
 }
 .recent-box .content-icon2 .icon:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .recent-box:hover .content-icon {
@@ -3018,19 +3038,19 @@ Project Area Style
   top: 42%;
   left: 0;
 }
-.recent-project-slider .owl-nav [class*=owl-] {
+.recent-project-slider .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
   line-height: 61px !important;
   transition: all 0.5s;
 }
-.recent-project-slider .owl-nav [class*=owl-]:hover {
-  background: #FF4057 !important;
+.recent-project-slider .owl-nav [class*="owl-"]:hover {
+  background: #ff4057 !important;
   color: #ffffff !important;
 }
 .recent-project-slider .owl-nav .owl-prev {
@@ -3044,7 +3064,7 @@ Project Area Style
 
 .main-box {
   display: flex;
-  background: #FF4057;
+  background: #ff4057;
   padding: 0;
   margin-right: 1px;
 }
@@ -3065,7 +3085,7 @@ Project Area Style
   right: 0;
   top: 0;
   background: white;
-  color: #FF4057;
+  color: #ff4057;
   opacity: 0;
   padding: 0 0px;
   box-sizing: border-box;
@@ -3119,7 +3139,7 @@ Discover Area Style
 Member Area Style
 ======================================================*/
 .member-self {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.09);
   border-radius: 5px;
   padding: 10px;
@@ -3157,7 +3177,11 @@ Member Area Style
   opacity: 0;
   transition: all ease 0.5s;
   visibility: hidden;
-  background: linear-gradient(0deg, rgba(0, 14, 48, 0.6) -6.77%, rgba(0, 14, 48, 0) 54.8%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 14, 48, 0.6) -6.77%,
+    rgba(0, 14, 48, 0) 54.8%
+  );
 }
 .member-self .social {
   list-style: none;
@@ -3186,14 +3210,14 @@ Member Area Style
   height: 35px;
   border-radius: 50%;
   background-color: #ffffff;
-  color: #FF4057;
+  color: #ff4057;
   line-height: 43px;
   display: inline-block;
   font-size: 15px;
   text-align: center;
 }
 .member-self .social li a:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .member-self:hover .social {
@@ -3211,11 +3235,11 @@ Member Area Style
   right: 0%;
   top: -21%;
 }
-.member-area .owl-nav [class*=owl-] {
+.member-area .owl-nav [class*="owl-"] {
   height: 50px;
   font-size: 20px !important;
   width: 50px;
-  color: #FF4057 !important;
+  color: #ff4057 !important;
   border-radius: 50px !important;
   background: rgba(255, 64, 87, 0.09) !important;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06) !important;
@@ -3230,13 +3254,13 @@ Costing Area Style
   padding-right: 15px;
 }
 .costing-content .business-card {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06);
   border-radius: 5px;
   padding: 13px;
 }
 .costing-content .business-card:hover .icon {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .costing-content .business-card.frist {
@@ -3252,7 +3276,7 @@ Costing Area Style
   text-align: center;
   bottom: -59px;
   line-height: 86px;
-  color: #FF4057;
+  color: #ff4057;
   transition: all ease 0.5s;
   margin-top: -59px;
 }
@@ -3285,7 +3309,7 @@ Costing Area Style
   border-radius: 0px 88px 0px 0px;
   z-index: -1;
   width: 70%;
-  background: #F2F3F5;
+  background: #f2f3f5;
 }
 
 .costing-image {
@@ -3303,7 +3327,7 @@ Blog Three Area Style
 .blog-card .date-three {
   width: 59px;
   height: 63px;
-  background: #FF4057;
+  background: #ff4057;
   border-radius: 5px;
   color: #ffffff;
   padding: 10px;
@@ -3369,7 +3393,11 @@ Inner Banner Area Style
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: linear-gradient(90deg, rgba(255, 245, 228, 0.95) 47.79%, rgba(255, 240, 242, 0.95) 100.42%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 245, 228, 0.95) 47.79%,
+    rgba(255, 240, 242, 0.95) 100.42%
+  );
 }
 .inner-banner-area .inner-shape1 {
   position: absolute;
@@ -3399,10 +3427,10 @@ Inner Banner Area Style
   font-weight: 600;
   font-size: 18px;
   position: relative;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .inner-content .inner-list li a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .inner-content .inner-list li::before {
   content: "";
@@ -3412,7 +3440,7 @@ Inner Banner Area Style
   bottom: 0;
   height: 18px;
   width: 2px;
-  background-color: #6B6B6B;
+  background-color: #6b6b6b;
 }
 .inner-content .inner-list li:last-child {
   padding-right: 0;
@@ -3447,18 +3475,18 @@ Inner Pagination Area Style
   line-height: 37px;
   font-weight: 600;
   font-size: 16px;
-  background: #F7F7F7;
+  background: #f7f7f7;
   border: none;
   color: #000000;
   transition: all ease 0.5s;
 }
 .all-pagination .pagination .page-item .page-link.active {
-  background: #FF4057;
+  background: #ff4057;
   color: #ffffff;
   z-index: 2;
 }
 .all-pagination .pagination .page-item .page-link:hover {
-  background: #FF4057;
+  background: #ff4057;
   color: #ffffff;
 }
 .all-pagination .pagination .page-item .page-link i.flaticon-next {
@@ -3505,7 +3533,7 @@ Quote Area Style
 }
 .quote-input-box .form-control {
   height: 56px;
-  background: #FEFEFE;
+  background: #fefefe;
   border-radius: 3px;
   border: none;
   padding-left: 20px;
@@ -3525,7 +3553,7 @@ Quote Area Style
 }
 .quote-input-box .form-select {
   height: 56px;
-  background-color: #FEFEFE;
+  background-color: #fefefe;
   border-radius: 3px;
   border: none;
   padding-left: 20px;
@@ -3545,7 +3573,7 @@ Quote Area Style
 Package Area Style
 ======================================================*/
 .package-box {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.09);
   border-radius: 5px;
   padding: 45px 40px;
@@ -3559,17 +3587,17 @@ Package Area Style
 .package-box h1 {
   font-weight: 800;
   font-size: 40px;
-  color: #FFAA17;
+  color: #ffaa17;
   margin-bottom: 20px;
 }
 .package-box h1 span {
   font-weight: 500;
   font-size: 14px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .package-box .default-btn {
   background: rgba(255, 64, 87, 0.04);
-  color: #FF4057;
+  color: #ff4057;
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
@@ -3578,7 +3606,7 @@ Package Area Style
   background-color: transparent;
 }
 .package-box .default-btn:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .package-box .pricing-list {
@@ -3594,16 +3622,16 @@ Package Area Style
   margin-bottom: 0;
 }
 .package-box .pricing-list li i {
-  color: #FF4057;
+  color: #ff4057;
   margin-right: 5px;
 }
 .package-box .pricing-list .under-line {
   opacity: 40%;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .package-box .pricing-list .under-line i {
   text-decoration: none;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .package-box .pricing-list .under-line p {
   margin-bottom: 0;
@@ -3627,7 +3655,7 @@ Service Details All Area Style
 }
 
 .all-box {
-  background: #F7F7F7;
+  background: #f7f7f7;
   border-radius: 5px;
   padding: 45px 30px;
   margin-bottom: 30px;
@@ -3652,7 +3680,7 @@ Service Details All Area Style
 .all-service ul li a {
   position: relative;
   padding: 12px 28px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 2px;
   display: block;
@@ -3672,7 +3700,7 @@ Service Details All Area Style
   visibility: hidden;
   z-index: -1;
   transition: all ease 0.8s;
-  background: #FF4057;
+  background: #ff4057;
 }
 .all-service ul li a i {
   position: absolute;
@@ -3704,7 +3732,7 @@ Service Details All Area Style
   margin-bottom: 0;
 }
 .brochures .pdf-box {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 2px;
   padding: 10px;
@@ -3736,35 +3764,35 @@ Service Details All Area Style
   z-index: -1;
 }
 .service-provider h3 {
-  color: #FF4057;
+  color: #ff4057;
   font-size: 24px;
   margin-bottom: 10px;
 }
 .service-provider h4 {
   font-weight: 600;
   font-size: 16px;
-  color: #FFF7F7;
+  color: #fff7f7;
   margin-bottom: 8%;
 }
 .service-provider p {
   margin-bottom: 20px;
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
 .service-provider .frist-contact {
-  color: #D4D4D4;
+  color: #d4d4d4;
   display: block;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 .service-provider .frist-contact:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .service-provider .second-contact {
-  color: #D4D4D4;
+  color: #d4d4d4;
   display: block;
 }
 .service-provider .second-contact:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 .service-big-widget .frist-image {
@@ -3776,8 +3804,8 @@ Service Details All Area Style
   margin-bottom: 10px;
 }
 .service-big-widget .style-tag {
-  background: #F7F7F7;
-  border-bottom: 5px solid #E7E7E7;
+  background: #f7f7f7;
+  border-bottom: 5px solid #e7e7e7;
   border-radius: 5px;
   padding: 40px 35px;
   margin-bottom: 30px;
@@ -3837,13 +3865,13 @@ Inner Team Area Style
   left: 0;
   bottom: 0;
   right: 0;
-  background: #000E30;
+  background: #000e30;
   height: 50%;
   width: 100%;
 }
 
 .inner-news-widget {
-  background: #F3F8F9;
+  background: #f3f8f9;
   z-index: 1;
   border-radius: 5px;
   padding: 100px 55px;
@@ -3869,7 +3897,7 @@ Inner Testimonial Area Style
   position: relative;
 }
 .inner-testimonial-area .testimonial-box2 {
-  background: #F8F8F8;
+  background: #f8f8f8;
   box-shadow: unset;
   border-radius: 5px;
   position: relative;
@@ -3892,7 +3920,7 @@ Faq Team Area Style
   border: none;
 }
 .faq-area .accordion .accordion-item .accordion-button {
-  background: #F7F7F7;
+  background: #f7f7f7;
   border-radius: 5px;
   padding: 7px;
   border: none;
@@ -3904,14 +3932,16 @@ Faq Team Area Style
 }
 .faq-area .accordion .accordion-item .accordion-button::after {
   margin-right: 20px;
-  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7467%) hue-rotate(233deg) brightness(88%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7467%)
+    hue-rotate(233deg) brightness(88%) contrast(100%);
 }
 .faq-area .accordion .accordion-item .accordion-button:not(.collapsed)::after {
   background-image: var(--bs-accordion-btn-active-icon);
-  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7467%) hue-rotate(233deg) brightness(88%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7467%)
+    hue-rotate(233deg) brightness(88%) contrast(100%);
 }
 .faq-area .accordion .accordion-item .accordion-button span {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 30px rgba(255, 64, 87, 0.06);
   border-radius: 5px;
   padding: 15px 20px;
@@ -3972,14 +4002,14 @@ Faq Team Area Style
 .gusses-image .content p {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .gusses-image .content h4 {
   font-weight: 700;
   font-size: 22px;
 }
 .gusses-image .content h4 a {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 /*
@@ -3991,7 +4021,7 @@ Inner Project Area Style
 }
 .project-main-widget .project-details-image ul {
   list-style: none;
-  background-color: #FF4057;
+  background-color: #ff4057;
   position: relative;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
   border-radius: 5px;
@@ -4003,7 +4033,7 @@ Inner Project Area Style
 }
 .project-main-widget .project-details-image ul li {
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-right: 60px;
 }
 .project-main-widget .project-details-image ul li img {
@@ -4014,7 +4044,7 @@ Inner Project Area Style
   padding-right: 0;
 }
 .project-main-widget .project-details-image ul li a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .project-main-widget h3 {
   font-weight: 600;
@@ -4022,8 +4052,8 @@ Inner Project Area Style
   margin-bottom: 10px;
 }
 .project-main-widget .style-tag {
-  background: #F7F7F7;
-  border-bottom: 5px solid #E3DEDE;
+  background: #f7f7f7;
+  border-bottom: 5px solid #e3dede;
   padding: 50px 65px;
   margin-bottom: 30px;
 }
@@ -4085,14 +4115,14 @@ Inner Related Area Style
 .releted-box .content p {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .releted-box .content h4 {
   font-weight: 700;
   font-size: 22px;
 }
 .releted-box .content h4 a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .releted-box:hover::before {
   opacity: 1;
@@ -4127,7 +4157,7 @@ Inner Shop Area Style
   padding-left: 18px;
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 5px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .shop-warp-content .input-box .form-control:focus {
   box-shadow: unset;
@@ -4149,7 +4179,7 @@ Inner Shop Area Style
   padding-left: 18px;
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 5px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .shop-warp-content .form-select:focus {
   box-shadow: unset;
@@ -4188,13 +4218,13 @@ Inner Shop Area Style
   text-align: center;
   background: rgba(255, 64, 87, 0.09);
   font-size: 18px;
-  color: #FF4057;
+  color: #ff4057;
   border-radius: 50%;
   line-height: 51px;
   display: inline-block;
 }
 .shop-box .shop-image .shop-list li a:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .shop-box .content {
@@ -4217,11 +4247,11 @@ Inner Shop Area Style
   display: inline-block;
   padding-right: 5px;
   font-weight: 600;
-  color: #FF4057;
+  color: #ff4057;
 }
 .shop-box .content .price-list li:first-child {
   text-decoration-line: line-through;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .shop-box:hover .shop-image .shop-list {
   opacity: 1;
@@ -4245,7 +4275,7 @@ Inner Shop Details Area Style
   border-radius: 5px;
 }
 .shop-details-list ul li .nav-tab-link.active .goal-btn img {
-  border: solid 2px #FF4057;
+  border: solid 2px #ff4057;
 }
 
 .product-quantity {
@@ -4322,7 +4352,7 @@ Inner Shop Details Area Style
   margin-left: 15px;
 }
 .shop-details-content .star i {
-  color: #FDC22D;
+  color: #fdc22d;
 }
 .shop-details-content .price-list {
   list-style: none;
@@ -4333,11 +4363,11 @@ Inner Shop Details Area Style
   display: inline-block;
   padding-right: 5px;
   font-weight: 600;
-  color: #FF4057;
+  color: #ff4057;
 }
 .shop-details-content .price-list li:first-child {
   text-decoration-line: line-through;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .shop-details-content .category {
   list-style: none;
@@ -4377,7 +4407,7 @@ Inner Shop Details Area Style
   display: inline-block;
 }
 .shop-details-content .social li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 .benefit-details-content .nav-tabs {
@@ -4401,8 +4431,8 @@ Inner Shop Details Area Style
   padding-right: 0;
 }
 .benefit-details-content .nav-tabs .nav-link.active {
-  border-bottom: solid 2px #FF4057;
-  color: #FF4057;
+  border-bottom: solid 2px #ff4057;
+  color: #ff4057;
 }
 .benefit-details-content p {
   margin-bottom: 0;
@@ -4415,7 +4445,7 @@ Inner Shop Details Area Style
 .benefit-details-content .d-link ul li {
   font-weight: 600;
   font-size: 18px;
-  color: #3C3630;
+  color: #3c3630;
   margin-bottom: 12px;
 }
 .benefit-details-content .d-link ul li span {
@@ -4442,31 +4472,37 @@ Inner Shop Details Area Style
   display: inline-block;
 }
 .benefit-details-content .hospital-details ul li i {
-  color: #FFC107;
+  color: #ffc107;
 }
 .benefit-details-content .hospital-details ul .last-star i {
-  color: #DDDDDD;
+  color: #dddddd;
 }
-.benefit-details-content .hospital-details textarea#exampleFormControlTextarea1 {
-  background: #F6F6F6;
+.benefit-details-content
+  .hospital-details
+  textarea#exampleFormControlTextarea1 {
+  background: #f6f6f6;
   border-radius: 5px;
   height: 180px;
   padding: 20px;
   border: none;
   margin-bottom: 20px;
 }
-.benefit-details-content .hospital-details textarea#exampleFormControlTextarea1:focus {
+.benefit-details-content
+  .hospital-details
+  textarea#exampleFormControlTextarea1:focus {
   box-shadow: unset;
 }
 .benefit-details-content .hospital-details input#exampleFormControlInput1 {
   height: 60px;
-  background: #F6F6F6;
+  background: #f6f6f6;
   border-radius: 5px;
   padding: 20px;
   border: none;
   margin-bottom: 20px;
 }
-.benefit-details-content .hospital-details input#exampleFormControlInput1:focus {
+.benefit-details-content
+  .hospital-details
+  input#exampleFormControlInput1:focus {
   box-shadow: unset;
 }
 .benefit-details-content .hospital-details input#flexCheckDefault {
@@ -4501,7 +4537,7 @@ Inner Shop Details Area Style
   margin-bottom: 10px;
 }
 .client-self .client-content-image .content .star i {
-  color: #FFC107;
+  color: #ffc107;
 }
 .client-self .client-content-image .content h6 {
   font-weight: 600;
@@ -4512,7 +4548,7 @@ Inner Shop Details Area Style
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #6B6B6B;
+  color: #6b6b6b;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -4528,7 +4564,7 @@ Cart Team Area Style
 }
 .cart-table table thead tr {
   border-top: none;
-  background: #F2F3F5;
+  background: #f2f3f5;
   border-radius: 6px;
   border: none;
 }
@@ -4571,7 +4607,7 @@ Cart Team Area Style
   height: 61px;
   display: block;
   margin: 0 auto;
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
 }
 .cart-table table tbody tr td button {
   background: transparent;
@@ -4582,7 +4618,7 @@ Cart Team Area Style
   font-size: 20px;
 }
 .cart-table table tbody tr td button i {
-  color: #FF4057;
+  color: #ff4057;
   font-size: 35px;
 }
 .cart-table table tbody tr td button span {
@@ -4723,7 +4759,7 @@ Inner Blog Area Style
 .post-box .blog-post .post-content span {
   font-weight: 500;
   font-size: 14px;
-  color: #FF4057;
+  color: #ff4057;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -4738,7 +4774,7 @@ Inner Blog Area Style
   transition: all ease 0.5s;
 }
 .post-box .blog-post .post-content h5 a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .post-box .blog-post.last-blog {
   margin-bottom: 0px;
@@ -4750,23 +4786,23 @@ Inner Blog Area Style
 .input-box .form-control {
   position: relative;
   height: 50px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 2px;
   padding-left: 18px;
   padding-top: 11px;
   font-weight: 500;
   font-size: 15px;
-  color: #AFAAAA;
+  color: #afaaaa;
 }
 .input-box .form-control:focus {
   box-shadow: unset;
 }
 .input-box .form-control::-moz-placeholder {
-  color: #AFAAAA;
+  color: #afaaaa;
 }
 .input-box .form-control::placeholder {
-  color: #AFAAAA;
+  color: #afaaaa;
 }
 .input-box .default-btn {
   position: absolute;
@@ -4792,12 +4828,12 @@ Inner Blog Area Style
 .tag-box ul li a {
   display: inline-block;
   padding: 8px 14px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 3px;
 }
 .tag-box ul li a:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 
@@ -4809,8 +4845,8 @@ Inner Blog Area Style
   margin-bottom: 12px;
 }
 .blog-details-big-widget .style-tag {
-  background: #F2F3F5;
-  border-bottom: 5px solid #E3DEDE;
+  background: #f2f3f5;
+  border-bottom: 5px solid #e3dede;
   text-align: center;
   padding: 38px 78px;
   margin-bottom: 25px;
@@ -4841,7 +4877,7 @@ Inner Blog Area Style
   margin-bottom: 0px;
 }
 .blog-details-big-widget .article ul li i {
-  color: #FF4057;
+  color: #ff4057;
   padding-right: 5px;
   font-size: 15px;
 }
@@ -4879,10 +4915,10 @@ Inner Blog Area Style
 .blog-details-big-widget .media .internet ul li a {
   font-weight: 500;
   font-size: 16px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .blog-details-big-widget .media .internet ul li a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .blog-details-big-widget .media .social ul li {
   padding-right: 10px;
@@ -4895,14 +4931,14 @@ Inner Blog Area Style
   display: inline-block;
   width: 36px;
   height: 36px;
-  color: #FF4057;
+  color: #ff4057;
   font-size: 20px;
   line-height: 42px;
   border-radius: 50%;
   background: rgba(255, 64, 87, 0.04);
 }
 .blog-details-big-widget .media .social ul li a:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
   transform: translateY(-5px);
 }
@@ -4917,8 +4953,8 @@ Inner Blog Area Style
   border: none;
   padding-left: 20px;
   padding-top: 12px;
-  background: #F7F7F7;
-  color: #6B6B6B;
+  background: #f7f7f7;
+  color: #6b6b6b;
   border-radius: 5px;
 }
 .blog-details-big-widget .comment-area .form-control:focus {
@@ -4934,7 +4970,10 @@ Inner Blog Area Style
   position: relative;
   top: -1px;
 }
-.blog-details-big-widget .comment-area .form-check input#flexCheckDefault:focus {
+.blog-details-big-widget
+  .comment-area
+  .form-check
+  input#flexCheckDefault:focus {
   box-shadow: unset;
 }
 
@@ -4956,7 +4995,7 @@ Inner Wishlist Area Style
   position: relative;
   margin-bottom: 15px;
   font-weight: 500;
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 16px;
 }
 .summary ul li:last-child {
@@ -4997,7 +5036,7 @@ Inner Wishlist Area Style
 Inner Checkout Area Style
 ======================================================*/
 .returning-customer {
-  background: #FF4057;
+  background: #ff4057;
   border-radius: 5px;
   padding: 25px;
   line-height: 0;
@@ -5030,7 +5069,7 @@ Inner Checkout Area Style
 }
 
 .bolling-details {
-  background: #F2F3F5;
+  background: #f2f3f5;
   border-radius: 5px;
   padding: 45px 40px;
 }
@@ -5040,7 +5079,7 @@ Inner Checkout Area Style
   margin-bottom: 20px;
 }
 .bolling-details .form-control {
-  background: #FEFEFE;
+  background: #fefefe;
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   height: 50px;
@@ -5098,7 +5137,7 @@ Inner Checkout Area Style
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 0px;
-  color: #6B6B6B;
+  color: #6b6b6b;
   margin-top: 15px;
 }
 .pamayent-method .form-check-input {
@@ -5114,13 +5153,13 @@ Inner Checkout Area Style
 }
 .pamayent-method .last-check .form-check-label a {
   letter-spacing: -0.02em;
-  color: #FF4057;
+  color: #ff4057;
 }
 
 .inner-login-area {
   max-width: 872px;
   margin: auto;
-  background: #F2F3F5;
+  background: #f2f3f5;
   border-radius: 5px;
   padding: 47px 50px;
 }
@@ -5131,7 +5170,7 @@ Inner Checkout Area Style
   margin-bottom: 20px;
 }
 .inner-login-area .form-control {
-  background: #FFFCFC;
+  background: #fffcfc;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   height: 60px;
@@ -5160,7 +5199,7 @@ Inner Checkout Area Style
   box-shadow: unset;
 }
 .inner-login-area .form-check a {
-  color: #FF4057;
+  color: #ff4057;
 }
 .inner-login-area .or-tag {
   text-align: center;
@@ -5194,39 +5233,39 @@ Inner Checkout Area Style
   margin-bottom: 20px;
 }
 .inner-login-area .google-facebook .facebook a {
-  background: #1877F2;
+  background: #1877f2;
   border-radius: 3px;
   padding: 12px 28px;
   display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .inner-login-area .google-facebook .facebook a i {
   width: 36px;
   height: 36px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 50%;
   margin-right: 10px;
   font-size: 25px;
   padding: 6px;
-  color: #1877F2;
+  color: #1877f2;
 }
 .inner-login-area .google-facebook .google a {
-  background: #FFFCFC;
+  background: #fffcfc;
   border-radius: 3px;
   padding: 12px 28px;
   display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 15px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .inner-login-area .google-facebook .google a i {
   width: 36px;
   height: 36px;
-  background: #DF513D;
+  background: #df513d;
   border-radius: 50%;
   margin-right: 10px;
   font-size: 25px;
@@ -5239,18 +5278,18 @@ Inner Checkout Area Style
 .inner-login-area .account p {
   font-weight: 500;
   font-size: 15px;
-  color: #6B6B6B;
+  color: #6b6b6b;
   margin-bottom: 0;
 }
 .inner-login-area .account p a {
-  color: #FF4057;
+  color: #ff4057;
 }
 
 /*
 Inner Contact Area Style
 ======================================================*/
 .contact-card {
-  background: #F3F8F9;
+  background: #f3f8f9;
   border-radius: 5px;
   padding: 38px 34px;
   display: flex;
@@ -5259,7 +5298,7 @@ Inner Contact Area Style
   margin-bottom: 25px;
 }
 .contact-card .icon {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(255, 64, 87, 0.06);
   border-radius: 5px;
   width: 107px;
@@ -5268,11 +5307,11 @@ Inner Contact Area Style
   font-size: 55px;
   line-height: 130px;
   margin-right: 20px;
-  color: #FF4057;
+  color: #ff4057;
   transition: all ease 0.5s;
 }
 .contact-card .icon:hover {
-  background-color: #FF4057;
+  background-color: #ff4057;
   color: #ffffff;
 }
 .contact-card .content a {
@@ -5280,7 +5319,7 @@ Inner Contact Area Style
   line-height: 1.8;
 }
 .contact-card .content a:hover {
-  color: #FF4057;
+  color: #ff4057;
 }
 .contact-card .content p {
   left: 0;
@@ -5302,7 +5341,7 @@ Inner Contact Area Style
 }
 
 .inner-form-area {
-  background: #FCFCFC;
+  background: #fcfcfc;
   border-radius: 5px;
   position: relative;
   padding: 80px 125px 95px 125px;
@@ -5319,11 +5358,11 @@ Inner Contact Area Style
   right: 30px;
   bottom: 30px;
   border-radius: 5px;
-  background: #F7F7F7;
+  background: #f7f7f7;
   z-index: -1;
 }
 .inner-form-area .form-control {
-  background: #FFFCFC;
+  background: #fffcfc;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   height: 60px;
@@ -5438,7 +5477,7 @@ Coming Soon Area Stayle
   border-radius: 0;
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid #5D5D5D;
+  border-bottom: 1px solid #5d5d5d;
   transition: all ease 0.5s;
   color: #000000;
   padding: 0 0 0 0px;
@@ -5448,7 +5487,11 @@ Coming Soon Area Stayle
   font-size: 16px;
   font-weight: 400;
 }
-.coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus {
+.coming-soon-area
+  .coming-soon-content
+  form
+  .form-group
+  .input-newsletter:focus {
   box-shadow: unset;
 }
 .coming-soon-area .coming-soon-content form .form-group .label-title {
@@ -5513,7 +5556,7 @@ Coming Soon Area Stayle
 .error-area .error-content-wrap p {
   margin: 20px 0 20px;
   font-size: 19px;
-  color: #FF4057;
+  color: #ff4057;
 }
 .error-area .error-content-wrap .default-btn.two {
   font-size: 16px;
@@ -5528,7 +5571,7 @@ Terms & Conditions Area Stayle
   text-align: center;
 }
 .terms-conditions .title span {
-  color: #FF4057;
+  color: #ff4057;
   display: block;
   margin-bottom: 10px;
 }
@@ -5569,7 +5612,7 @@ Terms & Conditions Area Stayle
   left: 0;
   top: 1px;
   font-size: 20px;
-  color: #FF4057;
+  color: #ff4057;
 }
 .terms-conditions .conditions-content h3 {
   margin-bottom: 15px;
@@ -5627,7 +5670,7 @@ Privacy Policy Area Stayle
   position: absolute;
   left: 0;
   top: 1px;
-  color: #FF4057;
+  color: #ff4057;
   font-size: 20px;
 }
 
@@ -5710,4 +5753,22 @@ Privacy Policy Area Stayle
 
 .nav-tab-link.active .goal-button img {
   border: solid 2px red;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+
+.product-pl .more-info {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: rgba(255, 64, 87, 0.09);
+  font-size: 18px;
+  color: #ff4057;
+  border-radius: 50%;
+  line-height: 45px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.product-pl .more-info:hover {
+  background-color: #ff4057;
+  color: #ffffff;
+}
