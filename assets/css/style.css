@@ -5799,3 +5799,27 @@ Privacy Policy Area Stayle
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
 }
+.team-card {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.team-card .team-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .team-card {
+    min-height: 380px;
+  }
+}
+@media (max-width: 575px) {
+  .team-card {
+    min-height: 320px;
+  }
+}
