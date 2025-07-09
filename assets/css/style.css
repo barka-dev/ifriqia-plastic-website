@@ -5772,3 +5772,30 @@ Privacy Policy Area Stayle
   background-color: #ff4057;
   color: #ffffff;
 }
+.category-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.category-btn {
+  border: none;
+  background: #f4f4f4;
+  color: #222;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  outline: none;
+}
+.category-btn.active,
+.category-btn:hover,
+.category-btn:focus {
+  background: #007bff;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
+}
