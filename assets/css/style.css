@@ -1179,6 +1179,7 @@ Team Area Style
 }
 .team-card .team-content {
   padding-top: 20px;
+  max-width: 90%;
 }
 .team-card .team-content h4 {
   font-weight: 600;
@@ -5759,7 +5760,7 @@ Privacy Policy Area Stayle
   width: 40px;
   height: 40px;
   text-align: center;
-  background:  #ff4057;
+  background: #ff4057;
   font-size: 18px;
   color: #ffffff;
   border-radius: 50%;
@@ -5780,11 +5781,12 @@ Privacy Policy Area Stayle
   margin-bottom: 2rem;
 }
 .category-btn {
+  max-width: 13em;
   border: none;
   background: white;
   border-radius: 0px !important;
-    border-right: 3px solid #ff4057;
-    border-bottom: 3px solid #ff4057;
+  border-right: 3px solid #ff4057;
+  border-bottom: 3px solid #ff4057;
   color: #222;
   padding: 0.6rem 1.5rem;
   font-weight: 500;
@@ -5801,11 +5803,11 @@ Privacy Policy Area Stayle
   outline: none;
   border: none;
   border-radius: 0px !important;
-    border-right: 2px solid #ff4057 !important;
-    border-bottom: 2px solid #ff4057 !important;
-    color: #fff;
-    border-radius: 0px !important;
-    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
+  border-right: 2px solid #ff4057 !important;
+  border-bottom: 2px solid #ff4057 !important;
+  color: #fff;
+  border-radius: 0px !important;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
 }
 .team-card {
   min-height: 420px;
