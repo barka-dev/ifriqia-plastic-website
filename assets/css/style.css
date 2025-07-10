@@ -5759,9 +5759,9 @@ Privacy Policy Area Stayle
   width: 40px;
   height: 40px;
   text-align: center;
-  background: rgba(255, 64, 87, 0.09);
+  background:  #ff4057;
   font-size: 18px;
-  color: #ff4057;
+  color: #ffffff;
   border-radius: 50%;
   line-height: 45px;
   display: inline-block;
@@ -5769,8 +5769,8 @@ Privacy Policy Area Stayle
 }
 
 .product-pl .more-info:hover {
-  background-color: #ff4057;
-  color: #ffffff;
+  background-color: rgba(255, 64, 87, 0.09);
+  color: #ff4057;
 }
 .category-btn-group {
   display: flex;
@@ -5781,10 +5781,12 @@ Privacy Policy Area Stayle
 }
 .category-btn {
   border: none;
-  background: #f4f4f4;
+  background: white;
+  border-radius: 0px !important;
+    border-right: 3px solid #ff4057;
+    border-bottom: 3px solid #ff4057;
   color: #222;
   padding: 0.6rem 1.5rem;
-  border-radius: 2rem;
   font-weight: 500;
   font-size: 1rem;
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
@@ -5795,9 +5797,15 @@ Privacy Policy Area Stayle
 .category-btn.active,
 .category-btn:hover,
 .category-btn:focus {
-  background: #007bff;
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
+  background-color: #ff4057 !important;
+  outline: none;
+  border: none;
+  border-radius: 0px !important;
+    border-right: 2px solid #ff4057 !important;
+    border-bottom: 2px solid #ff4057 !important;
+    color: #fff;
+    border-radius: 0px !important;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
 }
 .team-card {
   min-height: 420px;
