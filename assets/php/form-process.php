@@ -17,14 +17,14 @@ if (empty($_POST["email"])) {
 }
 
 // MSG SUBJECT
-if (empty($_POST["msg_subject"])) {
+if (empty($_POST["subject"])) {
     $errorMSG .= "Subject is required ";
 } else {
     $msg_subject = $_POST["msg_subject"];
 }
 
 // Phone Number
-if (empty($_POST["phone_number"])) {
+if (empty($_POST["tele"])) {
     $errorMSG .= "Number is required ";
 } else {
     $phone_number = $_POST["phone_number"];
@@ -37,7 +37,7 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "example@domainname.com";
+$EmailTo = "abdelcast23@gmail.com";
 
 $Subject = "New Message Received";
 
@@ -50,10 +50,10 @@ $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 $Body .= "Subject: ";
-$Body .= $msg_subject;
+$Body .= $subject;
 $Body .= "\n";
 $Body .= "Phone Number: ";
-$Body .= $phone_number;
+$Body .= $tele;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
