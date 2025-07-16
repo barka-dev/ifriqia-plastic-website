@@ -460,7 +460,7 @@ Banner Area Style
   );
 }
 .banner-area.bg-1 {
-  background-image: url(../images/banner/banner1.webp);
+  background-image: url(../images/backgrounds/b4.JPG);
 }
 .banner-area.bg-2 {
   background-image: url(../images/banner/banner2.webp);
@@ -1092,7 +1092,7 @@ Project Area Style
 Discover Area Style
 ======================================================*/
 .discover-area {
-  background-image: url(../images/projects/discover1.webp);
+  background-image: url(../images/backgrounds/b9.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
