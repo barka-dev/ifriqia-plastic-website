@@ -644,7 +644,7 @@ Others Option For Responsive Area Style
   .navbar-area {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #000000;
+    /* background: #000000; */
   }
   .navbar-area::after {
     background-color: transparent;
