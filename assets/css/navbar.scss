@@ -1,7 +1,7 @@
 
 
 $body-color: #6B6B6B; 
-$main-color: #FF4057; 
+$main-color: #ff4335; 
 $heading-color: #000000;
 $star-color: #FFC107;
 $white-color: #ffffff; 
@@ -30,7 +30,7 @@ Navbar Area Style
         bottom: 0;
         height: 100%;
         width: 305px;
-        background-color: #FF4057;
+        background-color: #ff4335;
         clip-path: polygon(0% 0%, 100% 0%, 76% 101%, 0% 102%);
     }
     &::after {
@@ -571,7 +571,7 @@ Others Option For Responsive Area Style
         }
         .quote-btn {
             .default-btn {
-                background: #FFAA17;
+                background: #003e9b;
             }
         }
     }
@@ -710,7 +710,7 @@ Others Option For Responsive Area Style
                     top: -2px;
                 }
                 &:hover {
-                    background-color: #FFAA17;
+                    background-color: #003e9b;
                 }
               }
         }
@@ -748,7 +748,7 @@ Others Option For Responsive Area Style
 @media only screen and (max-width: 991px) {
 
     $body-color: #6B6B6B; 
-    $main-color: #FF4057; 
+    $main-color: #ff4335; 
     $heading-color: #000000;
     $star-color: #FFC107;
     $white-color: #ffffff; 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,9 +21,52 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
+    <!-- SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow">
+    <meta name="theme-color" content="#005baa">
+    <meta name="apple-mobile-web-app-title" content="IFRIQUIA PLASTIC Produits">
+    <meta name="application-name" content="IFRIQUIA PLASTIC">
+    <meta name="copyright" content="IFRIQUIA PLASTIC">
+    <meta name="language" content="fr">
+    <meta name="geo.region" content="MA-CAS">
+    <meta name="geo.placename" content="Casablanca, Maroc">
+    <meta name="geo.position" content="33.5731;-7.5898">
+    <meta name="ICBM" content="33.5731, -7.5898">
+    <meta name="subject" content="Produits plastiques professionnels et sur mesure au Maroc">
+    <meta name="rating" content="general">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="revisit-after" content="3 days">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="IFRIQUIA PLASTIC">
+    <meta property="og:image:alt" content="Logo IFRIQUIA PLASTIC">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="315">
+    <meta name="twitter:site" content="@ifriquiaplastic">
+    <meta name="twitter:creator" content="@ifriquiaplastic">
+    <meta name="twitter:image:alt" content="Logo IFRIQUIA PLASTIC">
+    <meta itemprop="name" content="Notre gamme de produits | IFRIQUIA PLASTIC">
+    <meta itemprop="description" content="Découvrez la gamme complète de produits plastiques d’IFRIQUIA PLASTIC : cylindres, flacons, bonbonnes et jerrycans adaptés à l’agroalimentaire, l’industrie, la cosmétique, l’automobile et plus. Solutions sur mesure, innovation et performance durable au Maroc et à l’international.">
+    <meta itemprop="image" content="https://ifplast.com/assets/images/logo-v2.png">
+    <meta name="description" content="Découvrez la gamme complète de produits plastiques d’IFRIQUIA PLASTIC : cylindres, flacons, bonbonnes et jerrycans adaptés à l’agroalimentaire, l’industrie, la cosmétique, l’automobile et plus. Solutions sur mesure, innovation et performance durable au Maroc et à l’international.">
+    <meta name="keywords" content="IFRIQUIA PLASTIC, produits plastiques, cylindres, flacons, bonbonnes, jerrycans, emballages plastiques, solutions plastiques, industrie plastique Maroc, fabrication plastique, sur mesure, durable, Casablanca, agroalimentaire, cosmétique, automobile, médical, industrie">
+    <meta name="author" content="IFRIQUIA PLASTIC">
+    <meta property="og:title" content="Notre gamme de produits | IFRIQUIA PLASTIC">
+    <meta property="og:description" content="Solutions plastiques innovantes : cylindres, flacons, bonbonnes, jerrycans pour tous secteurs. Qualité, durabilité et personnalisation.">
+    <meta property="og:image" content="https://ifplast.com/assets/images/logo-v2.png">
+    <meta property="og:url" content="https://ifplast.com/products.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Notre gamme de produits | IFRIQUIA PLASTIC">
+    <meta name="twitter:description" content="Découvrez nos solutions plastiques sur mesure pour l’industrie, l’agroalimentaire, la cosmétique et plus.">
+    <meta name="twitter:image" content="https://ifplast.com/assets/images/logo-v2.png">
+    <link rel="canonical" href="https://ifplast.com/products.html">
+
     <!-- Title -->
     <title>IFRIQUIA PLASTIC</title>
-    <link rel="icon" type="image/svg" href="assets/images/logo.jpg" />
+    <link rel="icon" type="image/svg" href="assets/images/logo.jpg" alt="IFRIQUIA PLASTIC" />
   </head>
   <body>
     <!-- Start Preloader -->
@@ -42,7 +85,7 @@
             <div class="logo">
               <a href="index.html">
                 <img
-                  src="assets/images/logo.jpg"
+                  src="assets/images/logo.jpg" alt="IFRIQUIA PLASTIC Logo"
                   class="main-logo"
                   alt="logo"
                   width="40"
@@ -62,7 +105,7 @@
             <a class="navbar-brand" href="index.html">
               <img
                 src="assets/images/logo-v2.png"
-                class="main-logo"
+                class="IFRIQUIA PLASTIC"
                 alt="logo"
                 width="260"
               />
@@ -310,8 +353,8 @@
     <div class="inner-banner-area">
       <div class="container">
         <div class="inner-content">
-          <h1>Notre gamme de produits</h1>
-          <p>
+          <h1 class="text-white">Notre gamme de produits</h1>
+          <p class="text-white">
             Des solutions plastiques complètes conçues pour des performances
             dans de nombreux secteurs
           </p>
@@ -322,12 +365,12 @@
         <img
           src="assets/images/shapes/inner-shape1.webp"
           class="inner-shape1"
-          alt="image"
+          alt="IFRIQUIA PLASTIC Inner Shape 1"
         />
         <img
           src="assets/images/shapes/inner-shape2.webp"
           class="inner-shape2"
-          alt="image"
+          alt="IFRIQUIA PLASTIC Inner Shape 2"
         />
       </div>
     </div>
@@ -640,7 +683,7 @@
                                         <div class="team-image">
                                             <img src="assets/images/team/p${
                                               i + 1
-                                            }.png" alt="image">
+                                            }.png" alt="${products[i].title}">
                                             <div class="team-social">
                                                 <ul class="social">
                                                     <li>
@@ -652,7 +695,7 @@
                                         <div class="team-content">
                                             <h4>${products[i].title}</h4>
                                         </div>
-                                        <img src="assets/images/team/team-shape.webp" class="team-shape" alt="image">
+                                        <img src="assets/images/team/team-shape.webp" class="team-shape" alt="IFRIQUIA PLASTIC Products Shape">
                                     </div>
                                 </div>
                             `);
@@ -667,7 +710,7 @@
     <!-- Team Area End -->
 
     <div class="w-100 p-0">
-      <img src="assets/images/banner/inner-banner1.JPG" alt="" />
+      <img src="assets/images/banner/inner-banner1.JPG" alt="IFRIQUIA PLASTIC Inner Banner 1" />
     </div>
 
     <!-- Industry Area Start -->
@@ -685,11 +728,10 @@
           <div class="industry-image">
             <img
               src="assets/images/industies/agriculture.jpg"
-              alt="image"
+              alt="IFRIQUIA PLASTIC Agriculture"
               style="aspect-ratio: 1 / 1; width: 100%; object-fit: cover"
             />
-            <div class="content">
-              <p>Contenants pour engrais et phytosanitaires</p>
+            <div class="content bg-pr-brand">
               <h4>
                 <a href="#" style="pointer-events: none">Agriculture</a>
               </h4>
@@ -698,11 +740,10 @@
           <div class="industry-image">
             <img
               src="assets/images/industies/food-drink.png"
-              alt="image"
+              alt="IFRIQUIA PLASTIC Agroalimentaire"
               style="aspect-ratio: 1 / 1; width: 100%; object-fit: cover"
             />
-            <div class="content">
-              <p>Contenants certifiés pour huiles et sirops</p>
+            <div class="content bg-pr-brand">
               <h4>
                 <a href="#" style="pointer-events: none">Agroalimentaire</a>
               </h4>
@@ -710,12 +751,11 @@
           </div>
           <div class="industry-image">
             <img
-              src="assets/images/industies/automotive.png"
-              alt="image"
+              src="assets/images/industies/automotive.jpg"
+              alt="IFRIQUIA PLASTIC Automobile"
               style="aspect-ratio: 1 / 1; width: 100%; object-fit: cover"
             />
-            <div class="content">
-              <p>Contenants robustes pour fluides</p>
+            <div class="content bg-pr-brand">
               <h4>
                 <a href="#" style="pointer-events: none">Automobile</a>
               </h4>
@@ -724,11 +764,10 @@
           <div class="industry-image">
             <img
               src="assets/images/industies/cosmetics.jpg"
-              alt="image"
+              alt="IFRIQUIA PLASTIC Cosmétiques"
               style="aspect-ratio: 1 / 1; width: 100%; object-fit: cover"
             />
-            <div class="content">
-              <p>Emballages pour soins et beauté</p>
+            <div class="content bg-pr-brand">
               <h4>
                 <a href="#" style="pointer-events: none">Cosmétiques</a>
               </h4>
@@ -737,11 +776,10 @@
           <div class="industry-image">
             <img
               src="assets/images/industies/medical.jpg"
-              alt="image"
+              alt="IFRIQUIA PLASTIC Médical"
               style="aspect-ratio: 1 / 1; width: 100%; object-fit: cover"
             />
-            <div class="content">
-              <p>Contenants aux normes médicales</p>
+            <div class="content bg-pr-brand">
               <h4>
                 <a href="#" style="pointer-events: none">Médical</a>
               </h4>
@@ -749,12 +787,11 @@
           </div>
           <div class="industry-image">
             <img
-              src="assets/images/industies/industrial.png"
-              alt="image"
+              src="assets/images/industies/industrial.jpg"
+              alt="IFRIQUIA PLASTIC Industrie"
               style="aspect-ratio: 1 / 1; width: 100%; object-fit: cover"
             />
-            <div class="content">
-              <p>Solutions chimiques et industrielles</p>
+            <div class="content bg-pr-brand">
               <h4>
                 <a href="#" style="pointer-events: none">Industrie</a>
               </h4>
@@ -787,9 +824,6 @@
                   <a href="/contact.html" class="default-btn btn btn-sm m-2">
                     Demander un devis
                   </a>
-                  <button class="default-y-btn btn btn-sm m-2">
-                    Télécharger le catalogue
-                  </button>
                 </div>
               </div>
             </div>
@@ -807,7 +841,7 @@
             <div class="col-lg-6 col-sm-12">
               <div class="footer-widget">
                 <a href="index.html" class="logo">
-                  <img src="assets/images/logo-v2.png" alt="image" />
+                  <img src="assets/images/logo-v2.png" alt="IFRIQUIA PLASTIC Logo" />
                 </a>
                 <p class="torado-p">
                   Expert en solutions plastiques à l’échelle mondiale,
