@@ -1,33 +1,164 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------
-    Theme Name: Torado
-    Theme URI: 
-    Description: Torado - Industry & Factory HTML Template
-    Author: EnvyTheme
-    Author URI: https://envytheme.com/
-    Version: 1.0
--------------------------------------------------------------*/
-/*--------------------------------
-     =====Table Of Contents====
+ @font-face {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Book'), url('FuturaStdBook.woff') format('woff');
+    }
+    
 
-1.  General Styles 
-2.  Mixins CSS
-3.  Back To Top Button CSS
-4.  Preloader CSS
-5.  Button & Link CSS
-6.  Section Title & Overlay & Shape CSS
-7.  Social Link CSS
-8.  Pagination CSS
-9.  Sidebar CSS
-     - Search Box Widget
-     - Taglist Widget
-     - Category Widget
-     - Filter Search Widget
-     - New Arrival Product Widget
-     - Popular Post Widget
-10. Sign In CSS
-11. FAQ Terms & Conditions
-----------------------------------*/
+    @font-face {
+    font-family: 'Futura Std Book Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Book Oblique'), url('FuturaStdBookOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Light Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Light Condensed'), url('FuturaStdCondensedLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Light'), url('FuturaStdLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Light Condensed Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Light Condensed Oblique'), url('FuturaStdCondensedLightObl.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Light Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Light Oblique'), url('FuturaStdLightOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Medium Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Medium Condensed'), url('FuturaStdCondensed.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Medium'), url('FuturaStdMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Medium Condensed Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Medium Condensed Oblique'), url('FuturaStdCondensedOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Medium Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Medium Oblique'), url('FuturaStdMediumOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Heavy'), url('FuturaStdHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Heavy Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Heavy Oblique'), url('FuturaStdHeavyOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Bold'), url('FuturaStdBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Bold Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Bold Condensed'), url('FuturaStdCondensedBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Bold Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Bold Oblique'), url('FuturaStdBoldOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Bold Condensed Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Bold Condensed Oblique'), url('FuturaStdCondensedBoldObl.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Extra Bold Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Extra Bold Condensed'), url('FuturaStdCondensedExtraBd.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Extra Bold'), url('FuturaStdExtraBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Extra Bold Condensed Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Extra Bold Condensed Oblique'), url('FuturaStdCondExtraBoldObl.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura Std Extra Bold Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura Std Extra Bold Oblique'), url('FuturaStdExtraBoldOblique.woff') format('woff');
+    }
+
+c:\Users\abdel\Downloads\futura-std-4-webfont\style.css
 body {
   font-family: "Spartan";
   font-size: 16px;
@@ -1110,7 +1241,7 @@ Discover Area Style
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: rgba(0, 14, 48, 0.82);
+  background: rgba(0, 14, 48, 0.72);
 }
 
 .discover-content {
@@ -3375,8 +3506,8 @@ Blog Three Area Style
 Inner Banner Area Style
 ======================================================*/
 .inner-banner-area {
-  background-image: url(../images/banner/inner-banner1.JPG);
-  background-position: center center;
+  background-image: url(../images/backgrounds/b17.JPG);
+  background-position:  left 50% top 45%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -3396,8 +3527,8 @@ Inner Banner Area Style
   z-index: -1;
   background: linear-gradient(
     90deg,
-    rgba(255, 245, 228, 0.95) 47.79%,
-    rgba(255, 240, 242, 0.95) 100.42%
+    rgba(255, 245, 228, 0.75) 47.79%,
+    rgba(255, 240, 242, 0.75) 100.42%
   );
 }
 .inner-banner-area .inner-shape1 {
