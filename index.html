@@ -26,7 +26,7 @@
         <title>IFRIQUIA PLASTIC</title>
         <link rel="icon" type="image/svg" href="assets/images/logo.jpg">
     </head>
-    <body>
+    <body oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;">
 
         <!-- Start Preloader -->
         <div class="loader-wrap">
@@ -110,7 +110,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="providing-image" style="overflow: hidden;">
+                        <div class="providing-image image-wrapper" style="overflow: hidden;">
                             <img src="assets/images/backgrounds/b17.JPG" alt="image" style="object-fit: cover;aspect-ratio: 1/1; transform:scale(2)"/>
                             <!-- <div class="providing-image-content">
                                 <h1>+50</h1>
@@ -492,6 +492,73 @@
             </svg>
         </div>
         <!-- go to top area end-->
+
+        <script>
+            document.addEventListener('keydown', function (e) {
+                // Block F12
+                if (e.key === 'F12') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+Shift+I / Ctrl+Shift+C / Ctrl+Shift+J
+                if (e.ctrlKey && e.shiftKey && ['I', 'C', 'J'].includes(e.key.toUpperCase())) {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+U
+                if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+Shift+K (Firefox)
+                if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'k') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+S (Save page)
+                if (e.ctrlKey && e.key.toLowerCase() === 's') {
+                    e.preventDefault();
+                }
+            });
+
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault(); // Disable right-click context menu
+            });
+
+            document.addEventListener('selectstart', function (e) {
+                e.preventDefault(); // Disable text selection
+            });
+
+            document.addEventListener('dragstart', function (e) {
+                e.preventDefault(); // Disable drag and drop
+            });
+
+            document.addEventListener('keydown', function (e) {
+                const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+                const ctrlKey = isMac ? e.metaKey : e.ctrlKey;
+
+                // Block F12
+                if (e.key === 'F12') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+Shift+I / Cmd+Shift+I / C / J
+                if (ctrlKey && e.shiftKey && ['I', 'C', 'J', 'K'].includes(e.key.toUpperCase())) {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+U or Cmd+U
+                if (ctrlKey && e.key.toLowerCase() === 'u') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+S or Cmd+S
+                if (ctrlKey && e.key.toLowerCase() === 's') {
+                    e.preventDefault();
+                }
+            });
+
+        </script>
 
         <!-- Links of JS File -->
         <script src="assets/js/jquery.min.js"></script>

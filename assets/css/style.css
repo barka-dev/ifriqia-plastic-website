@@ -158,7 +158,18 @@
     src: local('Futura Std Extra Bold Oblique'), url('FuturaStdExtraBoldOblique.woff') format('woff');
     }
 
-c:\Users\abdel\Downloads\futura-std-4-webfont\style.css
+
+.image-wrapper {
+  position: relative;
+}
+.image-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: transparent;
+  z-index: 2;
+}
+
 body {
   font-family: "Spartan";
   font-size: 16px;
@@ -1223,8 +1234,8 @@ Project Area Style
 Discover Area Style
 ======================================================*/
 .discover-area {
-  background-image: url(../images/backgrounds/b9.jpg);
-  background-position: center center;
+  background-image: url(../images/backgrounds/bg-02.jpg);
+  background-position: right -20% top 60%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1241,7 +1252,7 @@ Discover Area Style
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: rgba(0, 14, 48, 0.72);
+  background: rgba(0, 14, 48, 0.85);
 }
 
 .discover-content {
