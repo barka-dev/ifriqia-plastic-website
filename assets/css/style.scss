@@ -31,7 +31,7 @@
 
 
 $body-color: #6B6B6B; 
-$main-color: #FF4057; 
+$main-color: #ff4335; 
 $heading-color: #000000;
 $star-color: #FFC107;
 $white-color: #ffffff; 
@@ -125,12 +125,12 @@ img {
             &.active {
                 span {
                     width: 44px; 
-                    background: #FF4057;
+                    background: #ff4335;
                 }
             }
             &:hover {
                 span {
-                    background: #FF4057;
+                    background: #ff4335;
                 }
             }
         }
@@ -173,7 +173,7 @@ img {
     span {
         font-weight: 600;
         font-size: 16px;
-        color: #FFAA17;
+        color: #003e9b;
         display: inline-block;
         margin-bottom: 10px;
     }
@@ -189,7 +189,7 @@ img {
     span {
         font-weight: 600;
         font-size: 16px;
-        color: #FFAA17;
+        color: #003e9b;
         display: inline-block;
         margin-bottom: 8px;
     }
@@ -461,7 +461,7 @@ Banner Area Style
     max-width: 845px;
     span {
         font-size: 16px;
-        color: #FFAA17;
+        color: #003e9b;
         padding: 5px 22px;
         background: rgba(255, 255, 255, 0.19);
         border-radius: 50px;
@@ -556,7 +556,7 @@ Features Area Style
         border-radius: 5px;
         font-size: 46px;
         text-align: center;
-        color: #FFAA17;
+        color: #003e9b;
         left: 0;
         transition: $transition;
         position: absolute;
@@ -667,7 +667,7 @@ Providing Area Style
         line-height: 82px;
         border-radius: 50%;
         position: relative;
-        background: #FFAA17;
+        background: #003e9b;
         color: #ffffff;
         margin-left: auto;
         top: -62px;
@@ -1130,7 +1130,7 @@ Discover Area Style
     span {
         font-weight: 600;
         font-size: 16px;  
-        color: #FFAA17;
+        color: #003e9b;
         display: inline-block;
         margin-bottom: 15px;
     }
@@ -1176,7 +1176,7 @@ Team Area Style
                     width: 31.58px;
                     height: 31.58px;
                     border-radius: 50%;
-                    background-color: #FF4057;
+                    background-color: #ff4335;
                     color: #ffffff;
                     line-height: 36px;
                     display: inline-block;
@@ -1293,7 +1293,7 @@ Benefits Area Style
         .popup-youtube {
             width: 91px;
             height: 91px;
-            background: #FF4057;
+            background: #ff4335;
             border-radius: 50%;
             display: inline-block;
             text-align: center;
@@ -1367,7 +1367,7 @@ Benefits Area Style
                     line-height: 75px;
                     font-size: 43px;
                     position: absolute;
-                    color: #FF4057;
+                    color: #ff4335;
                     text-align: center;
                     transition: $transition;
                     left: 0;
@@ -1560,7 +1560,7 @@ Blog Area Style
             width: 67px;
             height: 67px;
             border-radius: 50%;
-            background-color: #FF4057;
+            background-color: #ff4335;
             position: absolute;
             text-align: center;
             right: 20px;
@@ -1733,7 +1733,7 @@ Footer Area Style
                     border-radius: 50%;
                     background: rgba(255, 255, 255, 0.1);
                     font-size: 18px;
-                    color: #FF4057;
+                    color: #ff4335;
                     transition: $transition;
                 }
                 &:hover {
@@ -1855,7 +1855,7 @@ Style Two Banner Area Style
             .content {
                 width: 78px;
                 height: 78px;
-                background: #FFAA17;
+                background: #003e9b;
                 border-radius: 50%;
                 border: solid 2px $white-color;
                 p {
@@ -1880,7 +1880,7 @@ Style Two Banner Area Style
     .single-count-box {
         h3 {
             font-weight: 700;
-            color: #FFAA17;
+            color: #003e9b;
             font-size: 32px;
             margin-bottom: 0;
             .odometer-formatting-mark {
@@ -2021,7 +2021,7 @@ Choose Area Style
         .popup-youtube {
             width: 67px;
             height: 67px;
-            background: #FF4057;
+            background: #ff4335;
             border-radius: 50%;
             display: inline-block;
             text-align: center;
@@ -2035,7 +2035,7 @@ Choose Area Style
                 left: 3px;
             }
             &:hover {
-                background-color: #FFAA17;
+                background-color: #003e9b;
             }
         }
     }
@@ -2057,11 +2057,11 @@ Choose Area Style
             i {
                 position: absolute;
                 left: 0px;
-                color: #FF4057;
+                color: #ff4335;
                 font-size: 7px;
                 padding: 2px;
                 height: 12px;
-                border: solid 1px #FF4057;
+                border: solid 1px #ff4335;
                 top: 4px;
                 text-align: center;
                 border-radius: 50%;
@@ -2157,7 +2157,7 @@ Industry Area Style
             height: 50px;
             font-size: 20px !important;
             width: 50px;
-            color: #FF4057 !important;
+            color: #ff4335 !important;
             border-radius: 50px !important;
             background: rgba(255, 64, 87, 0.09) !important;
             box-shadow: 0px 0px 30px rgb(255 64 87 / 6%) !important;
@@ -2444,7 +2444,7 @@ Demo Area Style
             width: 100%;
             z-index: -1;
             height: 13px;
-            background: #FFAA17;
+            background: #003e9b;
        } 
     }
     h1 {
@@ -2664,7 +2664,7 @@ Dubble Area Style
         font-size: 50px;
         text-align: center;
         line-height: 97px;
-        color: #FFAA17;
+        color: #003e9b;
         position: absolute;
         top: 12px;
         transition: $transition;
@@ -2843,7 +2843,7 @@ Progress bar Area Style
                 height: 5px;
                 border-radius: 5px;
                 width: 80%;
-                background: #FFAA17;
+                background: #003e9b;
                 border-radius: 5px;
                 top: 5px;
                 position: absolute;
@@ -2860,7 +2860,7 @@ Progress bar Area Style
                     width: 16px;
                     height: 16px;
                     border-radius: 50%;
-                    background: #FFAA17;
+                    background: #003e9b;
                     animation:  showText2 0.5s 1.5s linear forwards;
                 }
                 &::after{
@@ -2951,7 +2951,7 @@ Fectory Area Style
         .popup-youtube {
             width: 91px;
             height: 91px;
-            background: #FF4057;
+            background: #ff4335;
             border-radius: 50%;
             display: inline-block;
             text-align: center;
@@ -3036,12 +3036,12 @@ Project Area Style
                 padding: 11px 16px 7px 16px;
                 transition: $transition;
                 &.active {
-                    background: #FF4057;
+                    background: #ff4335;
                     border-radius: 5px;
                     color: $white-color;
                 }
                 &:hover {
-                    background: #FF4057;
+                    background: #ff4335;
                     color: $white-color;
                 }
             }
@@ -3368,7 +3368,7 @@ Member Area Style
             height: 50px;
             font-size: 20px !important;
             width: 50px;
-            color: #FF4057 !important;
+            color: #ff4335 !important;
             border-radius: 50px !important;
             background: rgba(255, 64, 87, 0.09) !important;
             box-shadow: 0px 0px 30px rgb(255 64 87 / 6%) !important;
@@ -3407,7 +3407,7 @@ Costing Area Style
             text-align: center;
             bottom: -59px;
             line-height: 86px;
-            color: #FF4057;
+            color: #ff4335;
             transition: $transition;
             margin-top: -59px;
     
@@ -3460,7 +3460,7 @@ Blog Three Area Style
     .date-three {
         width: 59px;
         height: 63px;
-        background: #FF4057;
+        background: #ff4335;
         border-radius: 5px;
         color: #ffffff;
         padding: 10px;
@@ -3611,12 +3611,12 @@ Inner Pagination Area Style
                 color: #000000;
                 transition: $transition;
                 &.active {
-                    background: #FF4057;
+                    background: #ff4335;
                     color: $white-color; 
                     z-index: 2;
                 }
                 &:hover {
-                    background: #FF4057;
+                    background: #ff4335;
                     color: $white-color; 
                 }
                 i.flaticon-next  {
@@ -3717,7 +3717,7 @@ Package Area Style
     h1 {
         font-weight: 800;
         font-size: 40px;
-        color: #FFAA17;
+        color: #003e9b;
         margin-bottom: 20px;
         span {
             font-weight: 500;
@@ -4161,7 +4161,7 @@ Inner Project Area Style
     .project-details-image {
         ul {
             list-style: none;
-            background-color: #FF4057;
+            background-color: #ff4335;
             position: relative;
             box-shadow: 0px 0px 30px rgb(0 0 0 / 9%);
             border-radius: 5px;
@@ -5096,7 +5096,7 @@ Inner Blog Area Style
                         display: inline-block;
                         width: 36px;
                         height: 36px;
-                        color: #FF4057;
+                        color: #ff4335;
                         font-size: 20px;
                         line-height: 42px;
                         border-radius: 50%;
@@ -5212,7 +5212,7 @@ Inner Wishlist Area Style
 Inner Checkout Area Style
 ======================================================*/
 .returning-customer {
-    background: #FF4057;
+    background: #ff4335;
     border-radius: 5px;
     padding: 25px;
     line-height: 0;
@@ -5328,7 +5328,7 @@ Inner Checkout Area Style
             font-size: 12px;
             a {
                 letter-spacing: -0.02em;
-                color: #FF4057;
+                color: #ff4335;
             }
         }
     }
@@ -5464,7 +5464,7 @@ Inner Checkout Area Style
             color: #6B6B6B;
             margin-bottom: 0;
             a {
-                color: #FF4057;
+                color: #ff4335;
             }
         }
     }
