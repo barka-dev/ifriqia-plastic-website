@@ -762,7 +762,7 @@
         $(".product-pl").css({ opacity: 1, transform: "translateY(0)" });
         // Update Load More to work with category filtering
         let productsPerPage = 8;
-        let currentCategory = "cylindre";
+        let currentCategory = "Cylindres Industriels";
         let shownCount = 0;
 
         // Helper to show products for current category
@@ -775,7 +775,7 @@
           // Find matching indexes
           let matchIndexes = [];
           for (let i = 0; i < products.length; i++) {
-            if (category === "cylindre" || products[i].category === category) {
+            if (category === "Cylindres Industriels" || products[i].category === category) {
               matchIndexes.push(i);
             }
           }
@@ -804,7 +804,7 @@
         });
 
         // Initial show
-        showProductsForCategory("cylindre", true);
+        showProductsForCategory("Cylindres Industriels", true);
 
         // Load more click
         $(".load-more-btn").on("click", function () {
