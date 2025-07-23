@@ -404,9 +404,15 @@
             ];
               
             // Render category filter
-            document.write('<div class="mb-4 text-center"><div class="btn-group category-btn-group" role="group" aria-label="Catégories">');
-            categories.forEach(cat => {
-                document.write(`<button type="button" class="btn btn-outline-primary category-btn " data-category="${cat.key}">${cat.label}</button>`);
+            document.write(
+              '<div class="mb-4 text-center"><div class="btn-group category-btn-group" role="group" aria-label="Catégories">'
+            );
+            categories.forEach((cat, idx) => {
+              document.write(
+                `<button type="button" class="btn btn-outline-primary category-btn${
+                  idx === 0 ? " active" : ""
+                }" data-category="${cat.key}">${cat.label}</button>`
+              );
             });
             document.write("</div></div>");
 
