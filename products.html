@@ -405,7 +405,6 @@
               
             // Render category filter
             document.write('<div class="mb-4 text-center"><div class="btn-group category-btn-group" role="group" aria-label="Catégories">');
-            document.write('<button type="button" class="btn btn-outline-primary category-btn active" data-category="all">Tous</button>');
             categories.forEach(cat => {
                 document.write(`<button type="button" class="btn btn-outline-primary category-btn" data-category="${cat.key}">${cat.label}</button>`);
             });
@@ -885,6 +884,72 @@
           modal.show();
         });
       });
+    </script>
+    <script>
+            document.addEventListener('keydown', function (e) {
+                // Block F12
+                if (e.key === 'F12') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+Shift+I / Ctrl+Shift+C / Ctrl+Shift+J
+                if (e.ctrlKey && e.shiftKey && ['I', 'C', 'J'].includes(e.key.toUpperCase())) {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+U
+                if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+Shift+K (Firefox)
+                if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'k') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+S (Save page)
+                if (e.ctrlKey && e.key.toLowerCase() === 's') {
+                    e.preventDefault();
+                }
+            });
+
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault(); // Disable right-click context menu
+            });
+
+            document.addEventListener('selectstart', function (e) {
+                e.preventDefault(); // Disable text selection
+            });
+
+            document.addEventListener('dragstart', function (e) {
+                e.preventDefault(); // Disable drag and drop
+            });
+
+            document.addEventListener('keydown', function (e) {
+                const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+                const ctrlKey = isMac ? e.metaKey : e.ctrlKey;
+
+                // Block F12
+                if (e.key === 'F12') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+Shift+I / Cmd+Shift+I / C / J
+                if (ctrlKey && e.shiftKey && ['I', 'C', 'J', 'K'].includes(e.key.toUpperCase())) {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+U or Cmd+U
+                if (ctrlKey && e.key.toLowerCase() === 'u') {
+                    e.preventDefault();
+                }
+
+                // Block Ctrl+S or Cmd+S
+                if (ctrlKey && e.key.toLowerCase() === 's') {
+                    e.preventDefault();
+                }
+            });
+
     </script>
     <script>
             document.addEventListener('keydown', function (e) {
