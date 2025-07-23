@@ -5919,11 +5919,13 @@ Privacy Policy Area Stayle
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  justify-items: center;
   gap: 0.5rem;
   margin-bottom: 2rem;
 }
 .category-btn {
-  max-width: 13em;
+  /* max-width: 13em; */
   border: none;
   background: white;
   border-radius: 0px !important;
@@ -5932,7 +5934,10 @@ Privacy Policy Area Stayle
   color: #222;
   padding: 0.6rem 1.5rem;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
   cursor: pointer;

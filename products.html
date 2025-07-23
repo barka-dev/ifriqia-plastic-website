@@ -125,7 +125,7 @@
     <div class="inner-banner-area">
       <div class="container">
         <div class="inner-content">
-          <h1 class="text-white">Notre gamme de produits</h1>
+          <h1 class="text-white" style="font-family:'Futura Std Book';font-weight:normal;">Notre gamme de produits</h1>
           <p class="text-white">
             Des solutions plastiques complètes conçues pour des performances
             dans de nombreux secteurs
@@ -405,8 +405,12 @@
               
             // Render category filter
             document.write('<div class="mb-4 text-center"><div class="btn-group category-btn-group" role="group" aria-label="Catégories">');
+<<<<<<< HEAD
+=======
+            // document.write('<button type="button" class="btn btn-outline-primary category-btn active" data-category="all">Tous</button>');
+>>>>>>> 4b0216e0fe02a34553ac79e5b02e8af11a4977dc
             categories.forEach(cat => {
-                document.write(`<button type="button" class="btn btn-outline-primary category-btn" data-category="${cat.key}">${cat.label}</button>`);
+                document.write(`<button type="button" class="btn btn-outline-primary category-btn " data-category="${cat.key}">${cat.label}</button>`);
             });
             document.write("</div></div>");
 
